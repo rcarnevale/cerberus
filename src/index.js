@@ -8,7 +8,7 @@ import './css/index.css';
 import App from './App';
 //import Contato from './views/Contato';
 import Visitante from './views/Visitante';
-//import Morador from './views/Morador'
+import Morador from './views/Morador'
 import Home from './views/Home';
 
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
@@ -20,7 +20,7 @@ ReactDOM.render((
             <Switch>
                 <Route exact path='/' component={Home} />
                 <Route path='/visitante' component={Visitante} />
-                <Route path='/morador' component={Home} />
+                <Route path='/morador' component={Morador} />
                 <Route path='/contato' component={Home} />
             </Switch>
         </App>

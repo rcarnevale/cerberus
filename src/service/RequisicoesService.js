@@ -1,18 +1,18 @@
 const ReqService = {
     listaMoradores: () => {
-        return fetch(/*falta o endereço*/);
+        return fetch('http://endereço.aqui.com');
     },
 
     criaMorador: morador => {
-        return fetch(/*falta o endereço*/, {method: 'POST', headers: {'content-type': 'application/json'}, body:morador})
+        return fetch('http://endereço.aqui.com', {method: 'POST', headers: {'content-type': 'application/json'}, body:morador})
     },
     
     listaVisitante: () => {
-        return fetch(/*falta o endereço*/);
+        return fetch('http://endereço.aqui.com');
     },
 
     criaVisitante: visitante => {
-        return fetch(/*falta o endereço*/, {method: 'POST', headers: {'content-type': 'application/json'}, body: visitante})
+        return fetch('http://endereço.aqui.com', {method: 'POST', headers: {'content-type': 'application/json'}, body: visitante})
     },
 
     trataErro: res => {
