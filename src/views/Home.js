@@ -8,9 +8,9 @@ function Home (){
         
             <header className='header'>Bem vindo ao sistema de cadastro Cerberus</header>
         
-            <p className='home-texto'>Utilize o menu lateral para navegar.</p>
-            <p className='home-texto'>Para cadastro de Moradores, clique em <Link to="/morador">Moradores</Link>.</p>
-            <p className='home-texto'>Para cadastro de Visitantes, clique em <Link to="/visitante">Visitantes</Link>.</p>
+            <p className='centered-text'>Utilize o menu lateral para navegar.</p>
+            <p className='centered-text'>Para cadastro de Moradores, clique em <Link to="/morador">Moradores</Link>.</p>
+            <p className='centered-text'>Para cadastro de Visitantes, clique em <Link to="/visitante">Visitantes</Link>.</p>
         
         </div>
     )
